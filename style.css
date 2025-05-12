@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-box {
+    margin: 50px 150px;
+    padding: 28px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    max-width: 700px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
+
+/* Text-box */
+.text-cotent {
+    margin-top: 20px;
+    padding: 0;
+
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: lighter;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+p {
+    font-weight: 400;
+    color: hsla(30, 8%, 35%, 0.9);
+}
+
+li {
+    margin: 0;
+    padding: 6px;
+    padding-left: 12px;
+    font-weight: 400;
+    color: hsla(30, 8%, 35%, 0.9);
+}
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsla(30, 8%, 35%, 0.9);
+    opacity: 0.1;
+}
+
+/* Preparation */
+.preparation-time-box h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-time-box ul {
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation-time-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+
+/* Instruction */
+.instructions-box li::marker {
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+}
+
+/* Nutrition */
+table {
+    width: 100%;
+    border-collapse: none;
+}
+
+tr {
+    margin: 20px;
+    border-bottom: 1px solid hsla(30, 10%, 34%, 0.148);
+    display: flex;
+    justify-content: space-between;
+}
+
+tr:last-child {
+    border: none;
+}
+
+td:first-child {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    color: hsla(30, 8%, 35%, 0.9);
+}
+
+td:last-child {
+    padding-right: 200px;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+/* Social */
+.fa-linkedin{
+    color: #0077B5;
+}
